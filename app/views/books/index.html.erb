@@ -1,0 +1,23 @@
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Description</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        <% @books.each do |book| %>
+        <tr>
+            <td> <%= book["isbn"] %></td>
+            <td><%= book["title"] %></td>
+            <td> <%= book["authors"] %> </td>
+            <td> <%= book["description"]%></td>
+        </tr>
+
+        <% end %>
+    </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th> PublishedAt</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        <% @magazines.each do |magazine| %>
+        <tr>
+            <td><%= magazine["title"] %></td>
+            <td> <%= magazine["authors"] %> </td>
+            <td> <%= magazine["publishedAt"]%></td>
+        </tr>
+
+        <% end %>
+    </tbody>
+</table>
