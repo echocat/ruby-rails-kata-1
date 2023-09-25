@@ -5,7 +5,7 @@ ruby '2.5.7'
 
 gem 'rails', '~> 6.1.7'
 gem 'sqlite3'
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.4'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.11'
 gem 'bootsnap', '>= 1.1.0', require: false
